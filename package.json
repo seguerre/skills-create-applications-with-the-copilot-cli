@@ -1,0 +1,23 @@
+{
+  "name": "js-calculator",
+  "version": "1.0.0",
+  "description": "A Node.js CLI calculator app with basic arithmetic operations",
+  "main": "src/calculator.js",
+  "bin": {
+    "calculator": "src/calculator.js"
+  },
+  "scripts": {
+    "start": "node src/calculator.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "calculator",
+    "cli",
+    "arithmetic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
